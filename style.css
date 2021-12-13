@@ -1,20 +1,19 @@
 /* The hero image */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .hero-image {
-  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: url("https://townsquare.media/site/838/files/2019/10/rollingloudny.jpg?w=980&q=75");
-
-  /* Set a specific height */
-  height: 50%;
-  width: 50%;
-
-  /* Position and center the image to scale nicely on all screens */
+  background-image: url("https://www.frontgatetickets.com/wp-content/uploads/2019/07/RLNY-FDP.jpg");
+  height: 90%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
 
-/* Place text in the middle of the image */
 .hero-text {
   text-align: center;
   position: absolute;
@@ -24,24 +23,38 @@
   color: black;
 }
 
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
+}
+
 .ad{
   text-align: center;
   text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
 }
 
+.crowd{
+  height:500px;
+  width:500px;
+}
 .artist{
   height:500px;
   width:500px;
-position: right;
+  float:right;
 }
-
-
-
-
-
-
-
-
 
 body {
 	background: linear-gradient(-45deg, #FF0000, #6c9fce);
